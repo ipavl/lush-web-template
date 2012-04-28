@@ -1,0 +1,195 @@
+/********************************************
+ *	   Lush template by Ian P (ippavlin)	*
+ *			  v2.5.1 - 02/09/12				*
+ *				February 2012				*
+ ********************************************/
+
+/* Links */
+
+A { color: green; }
+
+/* The page itself */
+body {
+	background: url('assets/img/title/background.png');
+	font-family: Georgia;
+}
+
+/* This holds everything together in the centre of the page */
+#container {
+	margin: 0 auto;
+	width: 1000px;
+}
+
+/* Header */
+
+#header {
+	background: url('assets/img/title/banner.jpg');
+	height: 75px;
+	padding: 20px;
+	border: black 1px solid;
+}
+
+/* Navigation */
+
+#navigation {
+	float: left;
+	margin: 0px;
+	padding: 1px;
+	border: black 1px solid;
+}
+
+#navigation ul {
+	margin: 0;
+	padding: 0;
+}
+
+#navigation ul li {
+	list-style-type: none;
+	display: inline;
+}
+
+#navigation li a {
+	display: block;
+	float: left;
+	padding: 3px 8px;
+	text-decoration: none;
+	color: white;
+	background: rgba(0, 0, 0, 0.6);
+}
+
+#navigation li a:hover {
+	color: white;
+	background: black;
+}
+
+/* Main body of the site */
+
+#content {
+	clear: left;
+	padding: 20px;
+	border: 1px black solid;
+	background: #F5F5F5;
+}
+
+#content h2 {
+	color:#000;
+	font-size: 150%;
+	margin: 0 0 0.5em;
+}
+
+/* Footer */
+#footer {
+	background: #98FB98;
+	text-align: center;
+	font-size: 70%;
+	padding: 5px;
+	height: 1%;
+	border: black 1px solid;
+}
+
+/* Search box */
+#searchbox {
+	float: right;
+	margin: -7px -7px -7px -7px;
+}
+
+.searchbox-text {
+    border: 1px solid #006;
+    background: #ffc;
+}
+
+.searchbox-submit {
+    border: 1px solid #006;
+    background: #fff;
+}
+
+/* 'Highlight' the search box if it is selected */
+#searchbox input:focus {
+	border: 1px solid #663366;
+    background: #ff6;
+}
+
+/* Images */
+
+/* Use as <img src="image.jpg" class="floatLeft"> */
+img.floatLeft { 
+    float: left; 
+    margin: 5px 15px; 
+	padding: 1px;
+	border: black 3px solid;
+}
+img.floatRight { 
+    float: right; 
+    margin: 5px 15px; 
+	padding: 1px;
+	border: black 3px solid;
+}
+
+/* Contact Form */
+
+#contact fieldset { border: 0; }
+
+#contact input, #contact textarea {
+	background: #EEF3E2;
+	font-family: Georgia;
+	font-size: 12px;
+	padding: 3px;
+	width: 525px;
+	margin: 0px 0px 5px 0px;
+	border: 1px solid #ccc;
+}
+
+#contact textarea {
+	height: 85px;
+	margin: -19px 0px 0px 0px;
+}
+
+#contact input.submit-button {
+	width: 100px;
+}
+
+/* 'Highlight' the selected input field */
+#contact input:focus, #contact textarea:focus {
+	border: 1px solid #663366;
+    background: #ff6;
+}
+
+#contact label {
+	float: left;
+	text-align: right;
+	margin-right: 15px;
+	width: 100px;
+	padding-top: 0.5px;
+}
+
+#contact input.captcha {
+	width: 60px;
+}
+
+/* Tables */
+
+#table
+{
+	font-size: 24px;
+	margin: 15px;
+	width: 97%;
+	vertical-align: middle;
+	text-align: center;
+	border-collapse: collapse;
+}
+#table th
+{
+	font-size: 14px;
+	font-weight: bold;
+	padding: 10px 8px;
+	border: 1px solid #000;
+	background: #8BD696;
+	color: #228B22;
+}
+#table td
+{
+	padding: 8px;
+	color: #000;
+	border: 1px solid #000;
+}
+#table .odd { background: #A1FCAE; }

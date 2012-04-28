@@ -1,0 +1,37 @@
+		<h2>Downloads</h2>
+		
+		<table id="table">
+			<tbody>
+				<tr class="odd">
+					<td><a href="/?page=downloads&file=notepad10k.exe">Notepad 10k</a><br />
+					<font size="2">A <em>Notepad</em> clone in 10kb of code.</font></td>
+					<td><a href="/?page=downloads&file=osinfo.exe">OSInfo</a><br />
+					<font size="2">Operating system information.</font></td>
+					<td><a href="/?page=downloads&file=simpwgen.exe">Simple Password</a><br />
+					<font size="2">Generates simple passwords.</font></td>
+					<td><a href="/?page=downloads&file=advpwgen.exe">Advanced Password</a><br />
+					<font size="2">Generates complex passwords.</font></td>
+				</tr>
+				<tr>
+					<td><a href="/?page=downloads&file=commentremover.exe">Comment Remover</a><br />
+					<font size="2">Removes commented lines from source code.</font></td>
+					<td><a href="/?page=downloads&file=quadsolver.exe">Quadractics Solver</a><br />
+					<font size="2">Solves equations using the 
+					<a href="http://en.wikipedia.org/wiki/quadractic_formula">quadractic formula</a>.</font></td>
+					<td><a href="/?page=downloads&file=itunesplaycountsetter.exe">Play Count Setter</a><br />
+					<font size="2">Lets you change a song's play count in iTunes.</font></td>
+					<td><a href="/?page=downloads&file=arraycreator.exe">Array Creator</a><br />
+					<font size="2">Generates code for arrays based on a list of phrases.</font></td>
+				</tr>
+				<tr class="odd">
+					<td><a href="http://bit.ly/VanillaCommands">Vanilla Commands</a><br /><font size="2">
+					<em><a href="http://www.minecraft.net/">Minecraft</a></em> server mod</font></td>
+					<td><a href="http://minecraftwb.com/index.php/community/forum/topic?id=12896">Server Manager</a>
+					<br /><font size="2"><em><a href="http://www.minecraft.net/">Minecraft</a></em> server tool</font></td>
+					<td><a href="/?page=downloads&file=slots.zip">Slots</a><br /><font size="2">
+					A simple slot machine game.</font></td>
+					<td><a href="/?page=downloads&file=tictactoe.zip">Tic Tac Toe</a><br /><font size="2">
+					A simple <em>Tic Tac Toe</em> game.</font></td>
+				</tr>
+			</tbody>
+		</table>

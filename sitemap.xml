@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+<url>
+<loc>http://127.0.0.1:8887/</loc>
+</url>
+<url>
+<loc>http://127.0.0.1:8887/?page=about</loc>
+</url>
+<url>
+<loc>http://127.0.0.1:8887/?page=downloads</loc>
+</url>
+<url>
+<loc>http://127.0.0.1:8887/?page=contact</loc>
+</url>
+<url>
+<loc>http://127.0.0.1:8887/?page=terms</loc>
+</url>
+<url>
+<loc>http://127.0.0.1:8887/?page=privacy</loc>
+</url>
+<url>
+<loc>http://127.0.0.1:8887/forums/</loc>
+</url>
+
+</urlset> 
